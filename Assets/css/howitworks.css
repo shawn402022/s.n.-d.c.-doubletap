@@ -1,0 +1,119 @@
+*{ box-sizing:border-box;
+}
+
+* {max-width: 1920px;
+
+}
+
+/* START NAV BAR */
+
+
+.flex-container1  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    
+    
+}  
+
+.flex-item-1a {
+    display: flex;
+    max-width: 213px;
+    max-height: 57px;
+    
+    
+}
+
+/* start navbtns */
+
+
+.flex-item-1b {
+    display:flex;
+    
+    
+}
+
+.ntext {
+    padding:0px 50px 0px 50px;
+}
+
+/* end navbtns */
+
+/* start sign in and try it free */
+
+
+.flex-item-1c {
+    display: flex;
+    
+    
+}
+
+.nbtn {
+    padding:20px 20px 20px 20px;
+    border:3px solid;
+    border-radius: 10px;
+    
+
+}
+
+.signin {
+    margin-right: 30px;
+    border-color: blue;
+    color: blue;
+
+}
+
+.tryitfree {
+    border-color: blue;
+    background-color: blue;
+    color: white;
+}
+
+/* end sign in and try it free */
+
+/* END NAV BAR */
+
+
+
+/* START SECTION 2 */
+
+.flex-container2 {
+    display:flex;
+    justify-content: space-around;
+    /* margin-left: 150px; */
+    
+    
+}
+
+.f
+
+
+
+.flex-container-2a-1-a {
+    margin: 0;
+   
+
+}
+
+.chatbox {
+    max-width: 10px;
+}
+
+.flex-item-2a-2 {
+    display:flex
+}
+
+.flex-item-2b-1 {
+    /* margin-right: 20px; */
+}
+
+.flex-item-2a-4 {
+    display: flex;
+    padding-left: 0px;
+}
+
+
+
+/* END SECTION 2 */
+    
