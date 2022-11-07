@@ -76,7 +76,7 @@
 
 
 
-/* START SECTION 2 */
+/* START SECTION 1 */
 
 .flex-container2 {
     display:flex;
@@ -86,14 +86,29 @@
     
 }
 
-.f
 
 
 
-.flex-container-2a-1-a {
-    margin: 0;
+
+.flex-item-2a-1-a {
+    margin-bottom:0;
+    padding-bottom:0;
+    border-bottom:0;
    
 
+}
+
+.flex-item-2a-1-b {
+    margin-top:0;
+    border-top:0;
+    margin-bottom: 5p;
+    
+
+}
+
+.flex-item-2a-1-c {
+    color:gray;
+    margin-top: 0;
 }
 
 .chatbox {
@@ -101,7 +116,31 @@
 }
 
 .flex-item-2a-2 {
-    display:flex
+    display:flex;
+    /* justify-content: space-between 20px; */
+}
+
+.flex-item-2a-2-a {
+    border:10px;
+    padding: 20px;
+    border:solid blue;
+    border-radius: 10px;
+    background-color: blue; 
+    color: white;
+    margin-right: 20px;
+    
+
+}
+
+
+.flex-item-2a-2-b {
+    border:10px;
+    padding: 20px;
+    border:solid blue;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+
 }
 
 .flex-item-2b-1 {
@@ -109,10 +148,59 @@
 }
 
 .flex-item-2a-4 {
+
     display: flex;
     padding-left: 0px;
 }
 
+
+
+/* END SECTION 1 */
+
+
+/* START SECTION 2 */
+
+.flex-container3 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.lorem1 {
+    max-width: 700px;
+    margin-bottom: 100px;
+}
+/* END SECTION 2 */
+
+/* START SECTION 2 */
+.flex-container4 {
+    display:flex;
+    justify-content: center;
+}
+
+.flex-item-4-a {
+    border:solid gray;
+    border-radius: 20px 0px 0px 20px;
+    padding: 100px 20px 150px 100px;
+    
+
+}
+
+.flex-item-4-b {
+    display: flex;
+    flex-direction: column;
+    
+    color: white;
+    background: blue;
+    border-radius: 0px 20px 20px 0px;
+    padding-left: 100px;
+    padding-right:100px ;
+    align-items: center;
+
+    
+}
 
 
 /* END SECTION 2 */
